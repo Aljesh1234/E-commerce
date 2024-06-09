@@ -18,7 +18,6 @@ class BaseView(View):
     views['site'] = StieInfo.objects.all()
 
 
-
 class HomeView(BaseView):
     def get(self,request):
         self.views
